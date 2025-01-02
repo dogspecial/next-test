@@ -1,9 +1,8 @@
-import Navigation from "@/components/navigation";
 
 export default function Works() {
     return (
       <main>
-        <Navigation />
+        
         <br></br>
 
         <h1>작업들</h1>

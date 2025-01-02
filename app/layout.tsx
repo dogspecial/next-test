@@ -1,3 +1,4 @@
+import Navigation from "@/components/navigation";
 import type { Metadata } from "next";
 // import "@/styles/globals.css";
 
@@ -13,7 +14,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body>{children}</body>
+      <body>
+      <Navigation />
+        {children}
+        </body>
     </html>
   );
 }

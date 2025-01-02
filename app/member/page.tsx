@@ -1,9 +1,7 @@
-import Navigation from "@/components/navigation";
 
 export default function Member() {
     return (
       <main>
-        <Navigation />
         <br></br>
 
         <h1>멤버</h1>
